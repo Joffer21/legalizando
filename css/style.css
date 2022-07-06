@@ -7,7 +7,7 @@ html, body, #home {
 body {
 	background: url(../imagens/avatar2.png),
 				url(../imagens/ruido.png);
-				linear-gradient(50deg, #a72441, #6227b4);
+				
 				background-attachment: fixed;
 				font-family: Helvetica, Arial, sans-serif;
 }
@@ -58,7 +58,7 @@ nav.navbar-transparente {
 
 .btn-roxo:hover {
 	background: #6dd67e;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 .btn-branco {
@@ -85,19 +85,19 @@ nav.navbar-transparente {
 }
 
 #recursos {
-	color: white;
+	color: rgb(29, 35, 37);
 }
 
 #servicos h2, h3 {
-	color: #7c25f8;
+	color: #087561;
 }
 
 #recursos h2 {
-	color: white;
+	color: rgb(39, 80, 99);
 }
 
 #recursos h3 {
-	color: #9bf0e1;
+	color: #087561;
 }
 
 .albuns {
@@ -105,16 +105,20 @@ nav.navbar-transparente {
 }
 
 .rotacionar {
-	padding-left: 80px;
-	-webkit-transform: rotate(30deg); /*Chrome, Safari, Opera*/
-	-ms-transform: rotate(30deg); /*IE 9*/
-	transform: rotate(30deg);
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	padding-left: 120px;
+	/*
+	-webkit-transform: 30deg; Chrome, Safari, Opera
+	-ms-transform: 30deg; IE 9
+	transform: 30deg;
+	*/
 }
 
 /****** Rodape **************/
 footer {
 	background: #000;
-	padding: 50px 0 20px 0;
+	padding: 50px 0 50px 0;
 	position: relative;
 }
 
